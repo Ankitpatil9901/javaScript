@@ -31,3 +31,27 @@ const myFunction = function(){
     console.log("Hello");
 }
 
+
+//*************Memory */
+
+//StacK(primitive)  Heap(Non Primitive)
+/*
+let user="Ankit"
+let user1=user
+user1="Amit"
+console.log(user);//Ankit as the value is changed in copy of user not the original one
+console.log(user1);//Amit
+
+*/
+
+
+let user2={
+    email:"ankit@gmail.com",
+    upi:"80504@ybl"
+}
+
+let user3 = user2;
+user3.email="amit@gmail.com"
+console.log(user2);//amit@gmail.com as the value is changed in original one
+console.log(user3);//amit@gmail.com
+
