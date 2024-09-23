@@ -2,13 +2,14 @@
 
 //alert("hello") // we are using node js not browser
 /*
+
 number =2^3
 bigint 
 string " " or ' '
 boolean (true or false)
 null(Stand alone value)
 undefined
-symbol (unique)  c
+symbol (unique)  
 
 */
 
